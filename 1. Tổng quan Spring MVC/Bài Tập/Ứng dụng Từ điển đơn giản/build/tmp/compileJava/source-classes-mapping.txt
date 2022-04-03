@@ -1,0 +1,4 @@
+com/codegym/controller/DictionaryController.java
+ com.codegym.controller.DictionaryController
+com/codegym/controller/HomeController.java
+ com.codegym.controller.HomeController

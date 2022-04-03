@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:object="${user}" th:action="@{/}" method="post">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input th:field="*{firstName}"></td>
+            <td th:if="${#fields.hasErrors('firstName')" th:error="*{firstName}">First Name Error</td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

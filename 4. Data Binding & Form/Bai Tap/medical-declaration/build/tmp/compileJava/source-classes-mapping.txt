@@ -1,0 +1,4 @@
+com/codegym/MedicalDeclaration.java
+ com.codegym.MedicalDeclaration
+com/codegym/controller/HomeController.java
+ com.codegym.controller.HomeController

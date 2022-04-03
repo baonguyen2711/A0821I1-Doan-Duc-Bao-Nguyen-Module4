@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcbce517-be9d-474e-b100-54e175796a75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/.idea/1. Tổng quan Spring MVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/src/main/java/com/codegym/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/src/main/webapp/WEB-INF/views/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng Từ điển đơn giản/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/src/main/java/com/codegym/controller/ConvertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/src/main/webapp/WEB-INF/views/convert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.idea/Ứng dụng quản lý danh sách khách hàng.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/customer-management" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/modules/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/src/main/java/com/codegym/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Calculator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Sandwich/.idea/modules/Sandwich.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Sandwich/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Sandwich/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Sandwich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Bai Tap/Sandwich/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-gradle/.idea/modules/email-validate-gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-gradle/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-maven/.idea/email-validate-maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/email-validate-maven/email-validate-maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-gradle/.idea/modules/spring-timezone-gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-gradle/src/main/java/com/codegym/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-maven/spring-timezone-maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/spring-timezone-maven/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/modules/customer-management-thymleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/product-management-thymleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-management-thymleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/modules/customer-management-thymleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/java/com/codegym/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/java/com/codegym/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/java/com/codegym/service/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thuc Hanh/customer-management-thymleaf/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/.idea/modules/email.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/java/com/codegym/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/modules/medical-declaration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/java/com/codegym/MedicalDeclaration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/webapp/WEB-INF/views/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Bai Tap/medical-declaration/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/employee/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/modules/spring-user-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/java/com/codegym/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/java/com/codegym/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Data Binding &amp; Form/Thuc Hanh/spring-user-model/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Bài Tập/Ứng dụng chuyển đổi tiền tệ/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Tạo ứng dụng Spring Greeting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/6.7/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="customer-management-thymleaf" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="26p4QzVnwZbw8BUIBOCDsqmJ9Ws" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../product-management-thymleaf" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.codegym : customer-management-thymleaf-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="4092b917-4871-4616-9f60-ca68c57d6903" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64646" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcbce517-be9d-474e-b100-54e175796a75" name="Default Changelist" comment="" />
+      <created>1648107209316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648107209316</updated>
+      <workItem from="1648107210637" duration="4646000" />
+      <workItem from="1648112692448" duration="3060000" />
+      <workItem from="1648117363671" duration="187000" />
+      <workItem from="1648117654884" duration="184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
