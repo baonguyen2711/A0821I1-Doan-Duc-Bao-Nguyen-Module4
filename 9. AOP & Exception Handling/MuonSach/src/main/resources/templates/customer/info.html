@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" style="background-color: powderblue;padding-left: 35%">
+    <a href="/customer/list" class="btn btn-dark">Back to Book List</a>
+    <form th:action="@{/customer/accept}" method="post" th:object="${books}">
+        <fieldset>
+            <legend>Your Book</legend>
+            <table>
+                <tr>
+                    <td><label for="txtNameBook">Name Book</label></td>
+                    <td><input th:field="*{nameBook}" id="txtNameBook" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="OK" class="btn btn-info"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

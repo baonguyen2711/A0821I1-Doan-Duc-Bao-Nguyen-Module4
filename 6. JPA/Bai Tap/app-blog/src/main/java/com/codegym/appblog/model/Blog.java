@@ -1,10 +1,8 @@
 package com.codegym.appblog.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.time.LocalDate;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.persistence.*;
 
 @Entity
 public class Blog {
@@ -16,7 +14,19 @@ public class Blog {
     private String createOn;
     private String imageURL;
 
+    @ManyToOne(targetEntity = Category.class)
+    private Category category;
+
     public Blog() {
+    }
+
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
     public String getImageURL() {
@@ -58,4 +68,5 @@ public class Blog {
     public void setCreateOn(String createOn) {
         this.createOn = createOn;
     }
+
 }

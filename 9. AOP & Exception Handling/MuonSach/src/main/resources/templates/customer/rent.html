@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" style="background-color: powderblue;padding-left: 35%">
+    <a href="/customer/list" class="btn btn-dark">Back to Book List</a>
+<form th:action="@{/rentBook/__${random}__}" method="post" th:object="${books}">
+    <fieldset>
+        <legend>Rent Book</legend>
+        <table>
+            <tr>
+                <td><label for="txtNameBook">Name Book</label></td>
+                <input type="hidden" th:value="*{id}" th:field="*{id}">
+                <td><input type="text" class="form-control" name="code" title="title" id="txtNameBook"
+                           th:field="*{nameBook}" readonly></td>
+            </tr>
+            <tr>
+                <td><label for="txtCode">Your Code</label></td>
+                <td><input type="text" class="form-control" name="code" title="title"
+                           th:value="${random}"  id="txtCode" readonly></td>
+            </tr>
+            <tr>
+                <td><label for="txtAmount">Amount :</label></td>
+                <td><input th:field="*{amount}"  class="form-control" name="amount" id="txtAmount"
+                           title="Content" readonly></td>
+
+            </tr>
+            <tr>
+                <td><input type="submit" onclick="return confirm('Are you sure you want to Rent this Book?');"
+                           value="Rent this Book" class="btn btn-info"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>

@@ -3,13 +3,16 @@ package com.codegym.appblog.controller;
 
 import com.codegym.appblog.model.Blog;
 import com.codegym.appblog.service.BlogService;
+import com.codegym.appblog.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Optional;
@@ -19,6 +22,9 @@ public class BlogController {
 
     @Autowired
     BlogService blogService;
+    @Autowired
+    CategoryService categoryService;
+
 
     @GetMapping("/")
     public ModelAndView getListBlog(@PageableDefault(size = 5) Pageable pageable) {
@@ -40,7 +46,8 @@ public class BlogController {
     }
 
     @GetMapping("/create")
-    public ModelAndView getCreate() {
+    public ModelAndView getCreate(Model model) {
+        model.addAttribute("categories",categoryService.getAll());
         return new ModelAndView("create", "blogs", new Blog());
     }
 
@@ -53,7 +60,8 @@ public class BlogController {
     }
 
     @GetMapping("/{id}/update")
-    public ModelAndView getUpdate(@PathVariable int id) {
+    public ModelAndView getUpdate(@PathVariable int id,Model model) {
+        model.addAttribute("categories",categoryService.getAll());
         return new ModelAndView("update", "blogs", blogService.getById(id));
     }
 
@@ -64,7 +72,8 @@ public class BlogController {
     }
 
     @GetMapping("/{id}/delete")
-    public ModelAndView getDelete(@PathVariable int id) {
+    public ModelAndView getDelete(@PathVariable int id,Model model) {
+        model.addAttribute("categories",categoryService.getAll());
         return new ModelAndView("delete", "blogs", blogService.getById(id));
     }
 
@@ -75,7 +84,8 @@ public class BlogController {
     }
 
     @GetMapping("/{id}/info")
-    public ModelAndView getInfo(@PathVariable int id) {
+    public ModelAndView getInfo(@PathVariable int id,Model model) {
+        model.addAttribute("categories",categoryService.getAll());
         return new ModelAndView("info", "blogs", blogService.getById(id));
     }
 }

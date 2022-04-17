@@ -19,8 +19,8 @@ public class UserController {
         return new ModelAndView("index","user",new User());
     }
     @PostMapping("/checkValidation")
-    public ModelAndView checkValidation (@ModelAttribute("user")User user, BindingResult bindingResult){
-        new User().validate(user, bindingResult);
+    public ModelAndView checkValidation (@Valid @ModelAttribute("user")User user, BindingResult bindingResult){
+//        new User().validate(user, bindingResult);
         if (bindingResult.hasFieldErrors()){
             return new ModelAndView("index");
         }

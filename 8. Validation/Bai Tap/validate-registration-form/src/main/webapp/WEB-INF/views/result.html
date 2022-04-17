@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-lo
+<form th:object="${user}">
+<table>
+    <tr>
+        <td>First Name</td>
+        <td><input th:field="*{firstName}"></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input th:field="*{lastName}"></td>
+    </tr>
+    <tr>
+        <td>Telephone Number</td>
+        <td><input th:field="*{phoneNumber}"></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td><input th:field="*{age}"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input th:field="*{email}"></td>
+    </tr>
+</table>
+</form>
 </body>
 </html>

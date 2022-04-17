@@ -27,8 +27,13 @@
             <input id="exampleFormControlDate1" readonly type="date" th:field="*{createOn}">
         </div>
         <div class="form-group">
+            <label for="exampleFormControlCategory1">Category </label>
+            <input th:field="*{category.nameCategory}"  class="form-control"
+                   id="exampleFormControlCategory1" readonly>
+        </div>
+        <div class="form-group">
             <label for="exampleFormControlFile1"></label>
-            <img id="exampleFormControlFile1" th:src="@{imageURL}">
+            <img id="exampleFormControlFile1" th:src="*{imageURL}">
         </div>
     </fieldset>
 </form>

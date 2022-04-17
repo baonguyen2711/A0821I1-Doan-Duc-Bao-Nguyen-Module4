@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7182f2c-c468-4280-8c1b-914519a13ca8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/counter/CounterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/counter/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/counter/controller/CounterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/counter/model/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codegym/counter/CounterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/src/main/java/com/codegym/saveuser/SaveUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/src/main/java/com/codegym/saveuser/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Save User/src/test/java/com/codegym/saveuser/SaveUserApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/BlogImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/model/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/service/Impl/MuonSachServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/java/com/codegym/muonsach/service/MuonSachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/admin/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/admin/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/admin/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/errorRent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/rent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/return.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../5. Thao tác với CSDL và ORM/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../5. Thao tác với CSDL và ORM/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/classes/java/main/com/codegym/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/classes/java/main/com/codegym/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/classes/java/main/com/codegym/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/classes/java/main/com/codegym/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/libs/validate-registration-form-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/libs/validate-registration-form-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/resources/main/validation-message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/build/resources/main/validation-message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/java/com/codegym/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/java/com/codegym/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/resources/validation-message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/resources/validation-message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/webapp/WEB-INF/views/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8. Validation/Bai Tap/validate-registration-form/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27pkmzshKnJzsanlX6iUglNhINZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A0821I1-Doan-Duc-Bao-Nguyen-Module4\10. Session &amp; Cookie trong Spring\Thuc Hanh\Counter\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codegym.counter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CounterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Counter.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.counter.CounterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7182f2c-c468-4280-8c1b-914519a13ca8" name="Changes" comment="" />
+      <created>1650024580149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650024580149</updated>
+      <workItem from="1650024582266" duration="381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

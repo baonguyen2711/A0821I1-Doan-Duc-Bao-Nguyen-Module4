@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<th:block th:include="/home"></th:block>
+<h3 style="color: red" th:text="*{message}"></h3>
+    <form th:action="@{/admin/index}" method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <table>
+                <tr>
+                    <td><label for="exampleFormControlUsers1">Username</label></td>
+                    <td><input type="text" name="username" id="exampleFormControlUsers1"></td>
+                </tr>
+                <tr>
+                    <td><label for="exampleFormControlPassword2">Password</label></td>
+                    <td><input type="password" name="password" id="exampleFormControlPassword2"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" class="btn btn-info" value="Login"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
