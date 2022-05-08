@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4c05c43-d3b1-4f8f-b844-00a7bc8b7923" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/resources/static/img/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/resources/templates/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/resources/templates/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11. Web Service và RESTful/Thuc Hanh/cms/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11. Web Service và RESTful/Thuc Hanh/cms/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11. Web Service và RESTful/Thuc Hanh/cms/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11. Web Service và RESTful/Thuc Hanh/cms/src/main/java/com/codegym/cms/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11. Web Service và RESTful/Thuc Hanh/cms/src/main/java/com/codegym/cms/service/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../11. Web Service và RESTful/Thuc Hanh/cms/src/main/java/com/codegym/cms/service/customer/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JQuery/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JQuery/.idea/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JQuery/.idea/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JQuery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JQuery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JQuery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/controller/SmartPhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/model/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/repository/SmartPhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/service/Impl/SmartPhoneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/java/com/codegym/phonemanagement/service/SmartPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-management/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/static/img/a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/Ứng dụng quản lý danh sách khách hàng/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/service/Impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/service/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Session &amp; Cookie trong Spring/Thuc Hanh/Shopping-Cart/src/main/java/com/codegym/shoppingcart/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2. Spring Controller/Thuc Hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../5. Thao tác với CSDL và ORM/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../5. Thao tác với CSDL và ORM/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/model/BlogImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/service/Impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/java/com/codegym/appblog/service/Impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6. JPA/Bai Tap/app-blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/MuonSach/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../9. AOP &amp; Exception Handling/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="28JrchI62L8UoZkfp2pUCvWpaJw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4c05c43-d3b1-4f8f-b844-00a7bc8b7923" name="Changes" comment="" />
+      <created>1650945622743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650945622743</updated>
+      <workItem from="1650945624868" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

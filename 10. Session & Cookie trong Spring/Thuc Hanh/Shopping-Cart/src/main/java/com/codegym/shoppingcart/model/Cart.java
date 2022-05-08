@@ -1,5 +1,6 @@
 package com.codegym.shoppingcart.model;
 
+import javax.validation.constraints.Min;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -50,6 +51,15 @@ public class Cart {
         }
     }
 
+    public void deleteProduct(Product product) {
+        Map.Entry<Product, Integer> itemEntry = selectItemInCart(product);
+        assert itemEntry != null;
+        if(itemEntry.getValue()> 0){
+            Integer newQuantity = itemEntry.getValue() - 1;
+            products.replace(itemEntry.getKey(), newQuantity);
+        }
+    }
+
     public Integer countProductQuantity() {
         Integer productQuantity = 0;
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {
@@ -58,11 +68,11 @@ public class Cart {
         return productQuantity;
     }
 
-    public Integer countItemQuantity(){
+    public Integer countItemQuantity() {
         return products.size();
     }
 
-    public Float countTotalPayment(){
+    public Float countTotalPayment() {
         float payment = 0;
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {
             payment += entry.getKey().getPrice() * (float) entry.getValue();

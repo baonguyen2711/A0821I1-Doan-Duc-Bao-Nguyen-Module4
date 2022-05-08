@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Customer List</title>
+    <style>
+        table {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            border: 1px dotted #555;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    Language: <a href="?lang=en">English</a> | <a href="?lang=vi">Tiếng Việt</a>
+    <h2 th:text="#{list.title}"></h2>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th th:text="#{list.firstname}"></th>
+        <th th:text="#{list.lastname}"></th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="customer : ${customers}">
+        <td th:text="${customer.id}"></td>
+        <td th:text="${customer.firstName}"></td>
+        <td th:text="${customer.lastName}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

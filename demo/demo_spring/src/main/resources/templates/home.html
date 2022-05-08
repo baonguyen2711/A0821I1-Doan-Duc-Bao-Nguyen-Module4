@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="text-align: center">Products List</h1>
+<div class="container" style="margin-bottom: 20px;margin-top: 20px">
+    <div class="row">
+<!--        <div class="col-6 no-padding">-->
+<!--            <form class="form-inline" method="get" th:action="@{/admin/search}">-->
+<!--                <input class="form-control mr-sm-2" type="search" th:value="${search_key}" name="search_key"-->
+<!--                       placeholder="Search by title ..."/>-->
+<!--                <button class="btn btn-success" type="submit">-->
+<!--                    <i class="fa fa-search"></i> Search-->
+<!--                </button>-->
+<!--            </form>-->
+<!--        </div>-->
+        <div class="col-lg-6 table-search">
+            <form class="row gy-2 gx-3 align-items-center" method="get" th:action="@{/admin/search}">
+                <div class="col-auto">
+                    <select class="form-select" name="searchBy" th:object="${products}">
+                        <option selected value="">Search by...</option>
+                        <option th:value="${search_key}" name="searchCategory">Name</option>
+                        <option th:value="${searchCategory}" name="search_key">From Price</option>
+                        <option th:value="${search_key}" name="search_key">Manufacturer</option>
+                        <option th:value="${search_key}" name="search_key">Category</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <input type="text" class="form-control" name="searchVal"
+                           placeholder="Default by all">
+                </div>
+
+                <div class="col-auto">
+                    <button class="btn btn-secondary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+<table class="table">
+    <thead class="thead-dark">
+    <tr style="text-align: center">
+        <th scope="col">#</th>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Date</th>
+        <th scope="col">Manufacturer</th>
+        <th scope="col">Category</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product,status: ${products}" style="text-align: center">
+        <th scope="row" th:text="${status.count + products.getNumber() * products.getSize()}"></th>
+        <td th:text="${product.id}"></td>
+        <td><a th:href="@{/admin/{id}/info(id=${product.getId()})}" th:text="${product.name}"></a></td>
+        <td th:text="${product.price}"></td>
+        <td th:text="${product.date}"></td>
+        <td th:text="${product.manufacturer}"></td>
+        <td th:text="${product.category.name}"></td>
+    </tr>
+    </tbody>
+</table>
+<div class="d-flex justify-content-between">
+    <div class="pt-2"><h5>Showing <b>[[${products.getNumberOfElements()}]]</b> out of
+        <b>[[${products.getTotalElements()}]]</b></h5></div>
+    <div>
+        <nav>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" th:href="@{/}"
+                    >First Page</a>
+                </li>
+                <li class="page-item" th:classappend="${!products.hasPrevious()} ? 'disabled'">
+                    <a class="page-link" href="#" th:href="@{'/'(page=${products.getNumber()})}">Previous</a>
+                </li>
+                <li class="page-item" th:each="i : ${#numbers.sequence(1, products.getTotalPages())}"
+                    th:classappend="${i == products.getNumber() + 1} ? 'active' : ''">
+                    <a class="page-link" th:href="'?page=' + ${i}">[[${i}]]</a>
+                </li>
+                <li class="page-item" th:classappend="${!products.hasNext()} ? 'disabled'">
+                    <a class="page-link" href="#" th:href="@{'/'(page=${products.getNumber() + 2})}">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link"
+                       th:href="@{'?page=' + ${products.totalPages}}">Last</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</body>
+</html>

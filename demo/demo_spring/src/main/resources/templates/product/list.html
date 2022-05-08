@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+</head>
+<body>
+<h1 style="text-align: center"><a href="/admin">Products List</a></h1>
+<div class="container" style="margin-bottom: 20px;margin-top: 20px">
+    <div class="row">
+        <div class="col-6 no-padding">
+            <form class="form-inline" method="get">
+                <div>
+                    <select class="form-select" name="search_by">
+                        <option selected value="">Search by...</option>
+                        <option value="name">Name</option>
+                        <option value="price">From Price</option>
+                        <option value="manufacturer">Manufacturer</option>
+                        <option value="category">Category</option>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" name="search_key"
+                                   placeholder="Default by all">
+                        </div>
+                    </select>
+                    <button class="btn btn-success" type="submit">
+                        <i class="fa fa-search"></i> Search
+                    </button>
+
+                    <!--                        <select  name="search_by" class="form-control">-->
+                    <!--                            <option th:value="${null}">Select Category</option>-->
+                    <!--                            <option th:each="category: ${categories}" th:text="${category.name}"-->
+                    <!--                                    th:value="${category.name}"></option>-->
+                    <!--                        </select>-->
+                </div>
+            </form>
+        </div>
+        <div class="col-6 no-padding" style="float: right">
+            <a th:href="@{/admin/create}" class="btn btn-primary float-right">
+                <i class="fa fa-plus-square"></i> New contact
+            </a>
+        </div>
+    </div>
+</div>
+<table class="table">
+    <thead class="thead-dark">
+    <tr style="text-align: center">
+        <th scope="col">#</th>
+        <th scope="col">ID</th>
+        <th scope="col"><a th:href="'?page=' + ${products.getNumber() + 1} + '&sort=name,'+ ${reverseSortDir}">Name</a>
+        </th>
+        <th scope="col"><a
+                th:href="'?page=' + ${products.getNumber() + 1} + '&sort=price,'+ ${reverseSortDir}">Price</a>
+        </th>
+        <th scope="col"><a th:href="'?page=' + ${products.getNumber() + 1} + '&sort=date,'+ ${reverseSortDir}">Date</a>
+        </th>
+        <th scope="col"><a th:href="'?page=' + ${products.getNumber() + 1} + '&sort=manufacturer,'+ ${reverseSortDir}">Manufacturer</a>
+        </th>
+        <th scope="col"><a
+                th:href="'?page=' + ${products.getNumber() + 1} + '&sort=category,'+ ${reverseSortDir}">Category</a>
+        </th>
+        <th scope="col">Action</th>
+    </tr>
+
+    </thead>
+    <tbody>
+    <tr th:each="product,status: ${products}" style="text-align: center">
+        <th scope="row" th:text="${status.count+ products.getNumber() * products.getSize()}"></th>
+        <td th:text="${product.id}"></td>
+        <td><a th:href="@{/admin/{id}/info(id=${product.getId()})}" th:text="${product.name}"></a></td>
+        <td th:text="${product.price}"></td>
+        <td th:text="${product.date}"></td>
+        <td th:text="${product.manufacturer}"></td>
+        <td th:text="${product.category.name}"></td>
+        <td>
+            <a class="btn btn-success" th:href="@{/admin/{id}/update(id=${product.getId()})}">Edit</a>
+            <a class="btn btn-danger" th:href="@{/admin/{id}/delete(id=${product.getId()})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div th:if="${products.getTotalPages() > 0}" class="d-flex justify-content-between">
+    <div class="pt-2"><h5>Showing <b>[[${products.getNumberOfElements()}]]</b> out of
+        <b>[[${products.getTotalElements()}]]</b></h5></div>
+    <div>
+        <nav>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" th:href="@{'admin'(sort=${sort})}"
+                    >First Page</a>
+                </li>
+                <li class="page-item" th:classappend="${!products.hasPrevious()} ? 'disabled'">
+                    <a class="page-link" href="#" th:href="@{'admin'(page=${products.getNumber()}, sort = ${sort}
+                    , search_by = ${search_by},search_key = ${search_key})}">Previous</a>
+                </li>
+                <li class="page-item" th:each="i : ${#numbers.sequence(1, products.getTotalPages())}"
+                    th:classappend="${i == products.getNumber() + 1} ? 'active' : ''">
+                    <a class="page-link" th:href="@{'admin'(page=${i}, sort = ${sort}
+                    , search_by = ${search_by},search_key = ${search_key})}">[[${i}]]</a>
+                </li>
+                <li class="page-item" th:classappend="${!products.hasNext()} ? 'disabled'">
+                    <a class="page-link" href="#"
+                       th:href="@{'admin'(page=${products.getNumber() + 2}, sort = ${sort},search_by = ${search_by}
+                       ,search_key = ${search_key})}">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link"
+                       th:href="@{'admin'(page = ${products.totalPages}, sort = ${sort},search_by = ${search_by},
+                       search_key = ${search_key})}">Last</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--<div th:if="${products.getTotalPages() > 0}" class="d-flex justify-content-between">-->
+<!--    <div class="pt-2"><h5>Showing <b>[[${products.getNumberOfElements()}]]</b> out of-->
+<!--        <b>[[${products.getTotalElements()}]]</b></h5></div>-->
+<!--    <div>-->
+<!--        <nav>-->
+<!--            <ul class="pagination">-->
+<!--                <li class="page-item">-->
+<!--                    <a class="page-link" href="#" th:href="@{'admin'}"-->
+<!--                    >First Page</a>-->
+<!--                </li>-->
+<!--                <li class="page-item" th:classappend="${!products.hasPrevious()} ? 'disabled'">-->
+<!--                    <a class="page-link" href="#" th:href="@{'admin'(page=${products.getNumber()})}">Previous</a>-->
+<!--                </li>-->
+<!--                <li class="page-item" th:each="i : ${#numbers.sequence(1, products.getTotalPages())}"-->
+<!--                    th:classappend="${i == products.getNumber() + 1} ? 'active' : ''">-->
+<!--                    <a class="page-link" th:href="'?page=' + ${i}">[[${i}]]</a>-->
+<!--                </li>-->
+<!--                <li class="page-item" th:classappend="${!products.hasNext()} ? 'disabled'">-->
+<!--                    <a class="page-link" href="#"-->
+<!--                       th:href="@{'admin'(page=${products.getNumber() + 2})}">Next</a>-->
+<!--                </li>-->
+<!--                <li class="page-item">-->
+<!--                    <a class="page-link"-->
+<!--                       th:href="@{'admin'(page = ${products.totalPages})}">Last</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</div>-->
+</body>
+</html>

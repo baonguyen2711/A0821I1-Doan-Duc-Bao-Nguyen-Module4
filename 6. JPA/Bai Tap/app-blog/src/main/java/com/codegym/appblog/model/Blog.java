@@ -1,7 +1,5 @@
 package com.codegym.appblog.model;
 
-import org.springframework.web.multipart.MultipartFile;
-
 import javax.persistence.*;
 
 @Entity
@@ -20,7 +18,11 @@ public class Blog {
     public Blog() {
     }
 
+    public String getPhotosImagePath() {
+        if (imageURL == null || id == null) return null;
 
+        return "/user-photos/" + id + "/" + imageURL;
+    }
     public Category getCategory() {
         return category;
     }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<a href="/admin" class="btn btn-dark">Back to Products List</a>
+<form th:action="@{/admin/__${products.id}__/delete}" th:object="${products}" method="post">
+    <fieldset>
+        <legend>Delete Product</legend>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name </label>
+            <input th:field="*{name}" class="form-control" readonly
+                   id="exampleFormControlInput1">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Price </label>
+            <input th:field="*{price}" class="form-control" readonly
+                   id="exampleFormControlTextarea1">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlDate1">Date</label><br>
+            <input id="exampleFormControlDate1" class="form-control" type="date" th:field="*{date}" readonly>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlManufacturer1">Manufacturer</label><br>
+            <input id="exampleFormControlManufacturer1" class="form-control" th:field="*{manufacturer}" readonly>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlCategory1">Category </label>
+            <input th:field="*{category.name}" class="form-control"
+                   id="exampleFormControlCategory1" readonly>
+        </div>
+    </fieldset>
+    <input type="submit" class="btn btn-info" value="Delete">
+</form>
+</body>
+</html>
